@@ -15,7 +15,7 @@
  *   along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-﻿#ifndef IDFIXTASK_H
+#ifndef IDFIXTASK_H
 #define IDFIXTASK_H
 
 extern "C"
