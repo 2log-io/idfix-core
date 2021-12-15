@@ -106,14 +106,14 @@ namespace IDFix
                     int coreID = 0;
 
                     #ifdef CONFIG_IDF_TARGET_ESP32
-                        if ( pxTaskStatusArray[ taskNumber ].xCoreID == 2147483647 )
+                    /*    if ( pxTaskStatusArray[ taskNumber ].xCoreID == 2147483647 )
                         {
                             coreID = -1;
                         }
                         else
                         {
                             coreID = pxTaskStatusArray[ taskNumber ].xCoreID;
-                        }
+                        }*/
                     #endif
 
                     printf("%8u", coreID);
